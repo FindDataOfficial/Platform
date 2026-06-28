@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+agent.db
+
+# Node
+node_modules/
+dist/
+build/
+*.log
+
+# Env / secrets
+.env*
+!.env.example
+
+# Universal
+.DS_Store
+*.tmp
+*.swp
+.vscode/
+.idea/

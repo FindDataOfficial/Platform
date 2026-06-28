@@ -1,0 +1,12 @@
+{
+  "name": "upper",
+  "description": "Uppercase the input text. Example skill (research R3).",
+  "input_schema": {
+    "type": "object",
+    "properties": {"text": {"type": "string"}},
+    "required": ["text"]
+  },
+  "risk_level": "none",
+  "timeout_seconds": 10,
+  "entry": ["python", "run.py"]
+}
